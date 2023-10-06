@@ -11,9 +11,7 @@ const imgs = [
     let picString =""
     for (let i = 0; i < pic.length; i++) {
         picString += `
-            <li>
                 <img class="team-img" src="${pic[i]}">
-            </li>
         `
     }
     containerEl.innerHTML = picString
